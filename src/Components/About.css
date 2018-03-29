@@ -1,0 +1,104 @@
+.Pres-Container {
+	padding-top: 1%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+}
+.Pres-Back {
+	width: 70%;
+	padding-bottom: 5%;
+}
+.Pres-Content {
+	text-align: justify;
+	font-size: 1em;
+	font-family: 'Quicksand', sans-serif;
+	color: black;
+}
+.Pres-Banner {
+	width: 100%;
+}
+.Pres-Lambi {
+	width: 6%;
+	position: absolute;
+	background-color: rgb(255, 255, 255);
+	border-radius: 100%;
+}
+.Pres-LambiContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-top: 1px solid black;
+	width: 80%;
+	height: 0;
+}
+.Pres-traitContainer {
+	display: flex;
+	justify-content: center;
+	background-color: #fafafa;
+}
+
+.Maitrise {
+	font-size: 2em;
+	text-align: center;
+}
+.MySkillsWeb {
+	display: flex;
+	justify-content: center;
+	color: rgb(152, 152, 153);
+}
+#SkillsWeb1,
+#SkillsWeb2,
+#SkillsWeb3,
+#SkillsWeb4,
+#SkillsWeb5,
+#SkillsWeb6 {
+	font-size: 6em;
+	padding-right: 2%;
+}
+#SkillsWeb7 {
+	font-size: 5em;
+	padding-top: 1.5%;
+}
+#SkillsWeb1:hover {
+	font-size: 6em;
+	padding-right: 2%;
+	color: rgb(255, 115, 0);
+}
+#SkillsWeb2:hover {
+	font-size: 6em;
+	padding-right: 2%;
+	color: rgb(0, 60, 255);
+}
+#SkillsWeb3:hover {
+	font-size: 6em;
+	padding-right: 2%;
+	color: rgb(0, 162, 255);
+}
+#SkillsWeb4:hover {
+	font-size: 6em;
+	padding-right: 2%;
+	color: rgb(0, 0, 0);
+}
+#SkillsWeb5:hover {
+	font-size: 6em;
+	padding-right: 2%;
+	color: blueviolet;
+}
+#SkillsWeb6:hover {
+	font-size: 6em;
+	padding-right: 2%;
+	color: black;
+}
+#SkillsWeb7 :hover {
+	font-size: 5em;
+	padding-top: 1.5%;
+	color: black;
+}
+@media all and (max-width: 640px) {
+	.MySkillsWeb {
+		display: flex;
+		flex-wrap: wrap;
+		color: rgb(152, 152, 153);
+	}
+}

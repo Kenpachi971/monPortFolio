@@ -1,0 +1,47 @@
+.PositionnemenT {
+	display: flex;
+	text-align: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.MesProjets {
+	text-align: center;
+}
+.N1,
+.N2 {
+	margin-bottom: 3%;
+	height: 200px;
+	width: 30%;
+	background-color: rgba(0, 0, 0, 0.274);
+}
+
+/*.Appi {
+	display: flex;
+	justify-content: space-around;
+}
+.TextLoremH {
+	padding-top: 2%;
+	text-decoration: underline;
+	font-size: 1.3em;
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	border-radius: 3px;
+	color: rgb(153, 153, 153);
+}
+.Placement {
+	display: flex;
+	justify-content: space-around;
+}
+
+.DivVide {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 212px;
+	width: 30%;
+	color: white;
+	border: 1px solid black;
+	background-color: black;
+	cursor: pointer;
+}*/

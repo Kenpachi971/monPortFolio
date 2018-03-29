@@ -1,0 +1,13 @@
+.ContactContainer {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 20px;
+}
+.MeContacter {
+	text-align: center;
+}
+.myEmail,
+.myAdress,
+.myPhone {
+	display: flex;
+	padding-left: 5%;
+}

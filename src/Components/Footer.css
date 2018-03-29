@@ -1,0 +1,24 @@
+.Footer {
+	padding-top: 5%;
+}
+.contenu {
+	height: 30px;
+	color: rgba(0, 0, 0, 0.795);
+	border-top-style: dashed;
+	border-bottom-style: dashed;
+	font-size: 18px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-family: 'Oswald', sans-serif;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+@media (max-width: 600px) {
+	.contenu {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}

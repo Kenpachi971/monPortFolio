@@ -1,0 +1,158 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.Header {
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.divHeader {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	height: 250px;
+}
+.alignement {
+	width: 50%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.DivOfLogO {
+	display: flex;
+	align-items: center;
+}
+.icon.social {
+	cursor: pointer;
+	font-size: 40px;
+}
+
+.icon {
+	margin-right: 3%;
+	background-color: rgb(255, 255, 255);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 60px;
+	width: 60px;
+	border-radius: 70%;
+}
+
+.LiensBlack {
+	color: black;
+}
+.MyLogo1 {
+	height: 150px;
+	border-radius: 50%;
+}
+
+.divLiens {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 1%;
+}
+
+.Liens {
+	border: 1px solid white;
+	font-family: 'Oswald', sans-serif;
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	background-color: #ff0000;
+	border-radius: 3%;
+	padding-left: 4.7%;
+	padding-right: 4.7%;
+	padding-top: 0.3%;
+	padding-bottom: 0.3%;
+	font-size: 1.3em;
+	font-weight: lighter;
+}
+
+.divLiens :hover,
+.divLiens .active {
+	color: rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+}
+
+@media all and (min-width: 640px) and (max-width: 1024px) {
+	body {
+		margin: 0;
+		padding: 0;
+		font-family: sans-serif;
+	}
+	.Header {
+		background-color: rgb(0, 0, 0);
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	.divLMDA {
+		display: flex;
+		justify-content: center;
+	}
+	.LMDA {
+		width: auto;
+		height: 150px;
+	}
+	.divLiens {
+		display: flex;
+		justify-content: space-around;
+		height: 50px;
+		text-align: center;
+	}
+}
+
+@media all and (max-width: 640px) {
+	body {
+		margin: 0;
+		padding: 0;
+	}
+	.LMDA {
+		height: 100px;
+		width: 100px;
+	}
+	.divLiens {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+	.divHeader {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+	}
+	.Liens {
+		text-decoration: none;
+		color: black;
+		padding: 10px;
+	}
+	.alignement {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.DivOfLogO {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.icon.social {
+		cursor: pointer;
+		font-size: 40px;
+	}
+
+	.icon {
+		background-color: rgb(255, 255, 255);
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		height: 60px;
+		width: 60px;
+		border-radius: 50%;
+	}
+}
